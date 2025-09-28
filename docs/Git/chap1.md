@@ -1,5 +1,6 @@
 ---
 title: 如何安装Git
+layout: default
 parent: Git
 nav_order: 1
 ---

@@ -1,5 +1,6 @@
 ---
 title: Git
+layout: default
 nav_order: 2
 ---
 
