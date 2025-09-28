@@ -1,6 +1,6 @@
 ---
 title: Sphinx
-layout: default
+nav_order: 3
 ---
 # Sphinx简要操作手册
 

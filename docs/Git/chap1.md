@@ -1,6 +1,7 @@
 ---
 title: 如何安装Git
-layout: minimal
+parent: Git
+nav_order: 1
 ---
 
 # 章节1 安装Git
