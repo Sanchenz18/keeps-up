@@ -1,6 +1,6 @@
 ---
 title: Git
-layout: git
+layout: home
 ---
 
 # Git简要操作手册

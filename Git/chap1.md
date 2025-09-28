@@ -1,6 +1,6 @@
 ---
-title: Git Chap1
-layout: git
+title: 如何安装Git
+layout: minimal
 ---
 
 # 章节1 安装Git
