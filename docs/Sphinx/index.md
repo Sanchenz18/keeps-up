@@ -1,6 +1,6 @@
 ---
 title: Sphinx
-layout: sphinx
+layout: default
 ---
 # Sphinx简要操作手册
 
