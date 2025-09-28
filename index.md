@@ -3,33 +3,41 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# 集成电路设计与项目支持标准作业手册
+随着项目发展，本手册将逐步扩展至支持设计流程的通用工具，确保团队高效协作与知识共享。
+## 欢迎
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+欢迎访问**集成电路设计与项目支持标准作业手册**。
 
-More specifically, the created site:
+本项目旨在构建一个关于集成电路设计领域及相关项目支持工具的权威知识库。本手册为**集成电路设计项目组**建立的技术文档中心，希望提供准确、规范、统一的软件操作指南。
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+## 本站定位与宗旨
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+### 1. 是什么
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+*   **专业性技术百科**：本手册会简要介绍项目支持工具的集中说明文档。
+*   **标准化作业手册**：为确保项目质量与流程一致性，本站规定了使用各类软件执行特定任务的标准步骤。初始重点包括Git版本管理和Sphinx文档构建。后续还将会补充项目组工作所需要使用的工具或者需要规范化的工作流程。
+*   **核心化知识平台**：本手册将不断收录和整理项目实践中积累的关键技术要点形成组织的核心知识资产。支持工具部分旨在提升团队协作效率，避免因工具使用不规范导致的协作障碍。
 
-To get started with creating a site, simply:
+### 2. 不是什么
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+*   **非软件官方文档**：本手册并非替代软件厂商提供的官方用户手册。而是对其进行的简化提炼、解读和基于项目需求的定制化内容。
+*   **非基础计算机教程**：本手册默认读者具备基本的计算机操作能力和相关的工程背景。
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+## 如何使用本手册
 
-----
+1.  **左侧导航栏**：直接查阅相关工具手册文件树。
+2.  **搜索功能**：在页面顶部的搜索框中，输入**软件名称**或**专业术语**快速定位相关内容。
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+## 主要内容板块
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+*   **项目支持工具**：版本控制（Git）、文档生成（Sphinx）等，包括安装、基本操作和项目最佳实践。
+
+
+## 免责声明
+
+本手册内容基于项目组当前的技术环境和实践总结。软件版本更新或设计需求变更可能导致部分内容滞后。**在使用任何关键命令或流程前，请务必核对其与当前项目要求的一致性。** 如果您发现内容已过时或存在错误，请及时通过规定渠道向手册维护组反馈。
+
+---
+
+**最后更新日期：** 2025年9月30日
