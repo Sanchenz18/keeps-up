@@ -1,7 +1,7 @@
 ---
 title: Git
 layout: default
-nav_order: 2
+nav_order: 1
 ---
 
 # Git简要操作手册
