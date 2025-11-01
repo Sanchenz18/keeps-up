@@ -2,7 +2,9 @@ title: IC-KeepsUp
 description: Hops this wiki can really helps you a lot.
 theme: just-the-docs
 
-# 禁用默认页脚
-footer_content: ""
+search_enabled: true
 
 aux_links:
+
+sass:
+  quiet_deps: true
