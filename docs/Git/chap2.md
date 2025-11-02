@@ -1,11 +1,11 @@
 ---
-title: 如何安装Git
+title: Git初始化
 layout: default
 parent: Git
-nav_order: 1
+nav_order: 2
 ---
 
-# 章节1 安装Git
+# 章节2 Git初始化
 
 ---
 
