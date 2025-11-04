@@ -12,7 +12,7 @@ nav_order: 2
 
 > *ProGit*被广泛视为学习 Git 的权威资料之一，其内容完全开源，托管在 GitHub 上。
 > 
->  本手册提供下载方式：
+>  本手册提供下载方式：[Progit - Scott Chacon, Ben Straub](https://wwbno.lanzoue.com/iLInt3crc4ji)
 
 ## 什么是版本管理
 版本管理是一套用于记录、追踪和控制文件（尤其是源代码）变更的系统和流程，帮助团队协同开发、回溯历史、分支实验，并在需要时快速恢复到任意历史版本。
