@@ -164,15 +164,54 @@ nav_order: 3
 > `git checkout — "file"`同样是一个危险的命令，文件在本地的任何修改都会消失。
 
 ## **远程仓库的使用**
+为了能在任意 Git 项目上协作，你需要知道如何管理自己的远程仓库。
+
+此处举例，使用`git clone https://github.com/schacon/ticgit`，克隆一个远程仓库。
+
 ### 查看远程仓库
+如果想查看你已经配置的远程仓库服务器，可以运行`git remote -v`命令。它会列出所有远程服务器的简称、地址及权限。  
+类似如下：
+```
+ $ git remote -v
+ origin    git@github.com:mojombo/grit.git (fetch)
+ origin    git@github.com:mojombo/grit.git (push)
+```
+> 注意这些远程仓库使用了不同的协议。感兴趣可以在书中`服务器上搭建 Git`章节中了解关于它们的更多信息。
 
 ### 添加远程仓库
+运行`git remote add <shortname> <url>`添加一个新的远程Git仓库，同时指定一个方便使用的简称：
+```
+ $ git remote add pb https://github.com/paulboone/ticgit
+ $ git remote -v
+ origin  https://github.com/schacon/ticgit (fetch)
+ origin  https://github.com/schacon/ticgit (push)
+ pb  https://github.com/paulboone/ticgit (fetch)
+ pb  https://github.com/paulboone/ticgit (push)
+```
+可以看出，除了克隆时自动添加的仓库之外出现了名为`pb`的新的远程仓库。
 
 ### 从远程仓库中抓取与拉取
+- 从远程仓库中拉取数据，可以执行`git fetch "remote"`，替换双引号及其中内容为仓库的简称。
+
+> 这个命令会访问远程仓库，从中拉取所有你还没有的数据。   
+> 执行完成后，你将会拥有那个远程仓库中所有分支的引用，可以随时合并或查看。
+
+- 运行`git pull`通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支。
+
+> 这或许是个更加简单舒服的工作流程。但是需要当前分支设置了跟踪远程分支。
 
 ### 推送到远程仓库
+当你想分享你的项目时，必须将其推送到上游。   
+使用`git push origin master`来将本地的`master`分支推送到远程仓库`origin`中的`master`分支。
+
+> 请注意，如果推送被拒绝，则需要将远程仓库的分支先`git pull`下来。
 
 ### 远程仓库的重命名与移除
+使用`git remote rename "repo"`来修改一个远程仓库的简写名。   
+
+使用`git remote rm "repo"`来删除远程仓库。替换包含双引号及其中内容。
+
+> 删除远程仓库并不是删除远程服务器上的仓库，而只是删除本地的推送目录中的相应仓库。
 
 ---
 
