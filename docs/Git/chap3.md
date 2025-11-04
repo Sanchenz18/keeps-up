@@ -1,5 +1,5 @@
 ---
-title: 基底要素
+title: 初识之基底要素
 layout: default
 parent: Git
 nav_order: 3
@@ -46,10 +46,11 @@ git clone user@192.168.x.x:example  # 可能需要密码
 
 在Git中，文件具有两种状态，*已追踪(Tracked)*与*未追踪(Untracked)*。前者表明此文件已被纳入版本管理，Git会监控它的变化并随提交被记录。后者则并不会被Git关心。
 
-![]()
+![alt text](image-3.png)
+*Figure1 文件的状态变化周期*
 
 ### 检查当前文件状态
-使用`git status`可以查看那些文件处于Figure中的哪种状态。
+使用`git status`可以查看那些文件处于*Figure1*中的哪种状态。
 
 1. 在一个新创建的仓库中使用`git status`则会得到以下输出，在当前分支没有任何提交。
     ```
