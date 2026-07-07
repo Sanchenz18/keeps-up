@@ -5,6 +5,17 @@ theme: just-the-docs
 search_enabled: true
 
 aux_links:
+  "讨论区":
+    - "/discussion"
 
 sass:
   quiet_deps: true
+
+# Giscus 评论系统配置
+# 首先需要：1) 在仓库安装 Giscus App (https://github.com/apps/giscus)
+#           2) 到 https://giscus.app 获取 category_id
+giscus:
+  repo: "Sanchenz18/keeps-up"
+  repo_id: "R_kgDOP4bINQ"
+  category: "Announcements"
+  category_id: ""  # TODO: 从 https://giscus.app 获取后填入
