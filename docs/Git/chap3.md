@@ -33,7 +33,7 @@ nav_order: 3
 
 > 注意：此克隆(clone)会下载远程仓库每一个文件及其每一个版本，实际上是下载`.git`文件夹。
 
-使用克隆命令`git clone "urls" `，替换引号中内容为仓库链接。
+使用克隆命令`git clone "urls" `，**替换引号及其中内容为仓库链接**。
 ```
  # 例如现在需要以"user"身份克隆项目仓库"192.168.x.x:example"
  git clone user@192.168.x.x:example  # 可能需要密码
